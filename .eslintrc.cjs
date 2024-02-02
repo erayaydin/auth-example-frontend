@@ -5,7 +5,7 @@ module.exports = {
         'eslint:recommended',
         'plugin:prettier/recommended'
     ],
-    ignorePatterns: ['dist', '.eslintrc.cjs'],
+    ignorePatterns: ['dist', '.eslintrc.cjs', 'commitlint.config.cjs', 'lint-staged.config.cjs'],
     parser: '@typescript-eslint/parser',
     parserOptions: {
         ecmaVersion: 'latest',
